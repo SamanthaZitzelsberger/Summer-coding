@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main(int,char**) {
-    std::string nothing;
-    std::cout<<"Hello Samantha!"<<std::endl;
-    std::cin>>nothing;
+    std::string name;
+    std::cout<< "What is your name?";
+    std::cin>> name;
+    std::cout<<"Hello "<<name;
     return 0;
 }
